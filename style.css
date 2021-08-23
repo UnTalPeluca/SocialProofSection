@@ -42,7 +42,7 @@ body{
     line-height: 25px;
     letter-spacing: -0.5px;
 }
-.rated-section{
+.rated-container{
     height: 266px;
     display: flex;
     flex-direction: column;
@@ -62,7 +62,7 @@ body{
     color: var(--very-dark-magenta);
     font-weight: bold;
 }
-.reviews-section{
+.reviews-container{
     padding-bottom: 100px;
 }
 .review-wrapper{
@@ -136,7 +136,7 @@ body{
         font-size: 48px;
         line-height: 48px;
     }
-    .rated-section{
+    .rated-container{
         min-width: 540px;
         height: 200px;
         padding-bottom: 0px;
@@ -162,7 +162,7 @@ body{
         max-width: 286px;
         letter-spacing: -0.2px;
     }
-    .reviews-section{
+    .reviews-container{
         display: flex;
         justify-content: space-between;
         height: 266px;
