@@ -16,6 +16,7 @@ body{
     background-image: url(./images/bg-pattern-top-mobile.svg), url(./images/bg-pattern-bottom-mobile.svg);
     background-repeat: no-repeat;
     background-position-y: top, bottom;
+    min-height: 100vh;
 }
 .container{
     max-width: 327px;
@@ -168,5 +169,9 @@ body{
     }
     .review-wrapper:nth-child(3){
         align-self: flex-end;
+    }
+    .attribution {
+        font-size: 16px;
+        text-align: center;
     }
 }
