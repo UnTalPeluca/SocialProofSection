@@ -177,6 +177,9 @@ body{
     .review-wrapper:nth-child(3){
         align-self: flex-end;
     }
+    .review-profile{
+        max-width: 286px;
+    }
     .attribution {
         font-size: 16px;
         text-align: center;
