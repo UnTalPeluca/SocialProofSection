@@ -138,6 +138,8 @@ body{
     .rated-section{
         min-width: 540px;
         height: 200px;
+        padding-bottom: 0px;
+        align-self: center;
     }
     .rated{
         flex-direction: row;
@@ -151,6 +153,10 @@ body{
     }
     .rated:nth-child(3){
         align-self: flex-end;
+    }
+    .review{
+        max-width: 286px;
+        letter-spacing: -0.2px;
     }
     .reviews-section{
         display: flex;
