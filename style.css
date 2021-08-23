@@ -90,12 +90,13 @@ body{
     flex-direction: column;
     justify-content: space-around;
 }
-.profile-info h2{
+.verified{
+    color: var(--soft-pink);
+}
+.profile-name{
     font-size: 13px;
     color: white;
-}
-.profile-info p{
-    color: var(--soft-pink);
+    font-weight: bold;
 }
 .review{
     line-height: 22px;
